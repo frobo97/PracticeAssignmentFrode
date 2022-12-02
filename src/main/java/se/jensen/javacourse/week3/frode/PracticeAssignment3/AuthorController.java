@@ -8,12 +8,12 @@ public class AuthorController {
 
     Author author = new Author();
 
-    @GetMapping("/author/name.first")
+    @GetMapping("/author/first.name")
     public String getAuthorFirstName() {
         return author.getFirstName();
     }
 
-    @GetMapping("/author/name.last")
+    @GetMapping("/author/last.name")
     public String getAuthorLastName() {
         return author.getLastName();
     }

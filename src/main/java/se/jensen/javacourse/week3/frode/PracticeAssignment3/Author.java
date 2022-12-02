@@ -1,6 +1,5 @@
 package se.jensen.javacourse.week3.frode.PracticeAssignment3;
 
-import org.springframework.stereotype.Component;
 
 
 // todo ska denna vara med?  = @Component
